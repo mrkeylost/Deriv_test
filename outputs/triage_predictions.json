@@ -2,9 +2,9 @@
   {
     "ticket_id": "T-1001",
     "category": "billing_issue",
-    "priority": "urgent",
-    "reason": "Double charge error",
-    "suggested_reply": "Sorry for the issue. We'll look into it.",
+    "priority": "high",
+    "reason": "double charge",
+    "suggested_reply": "Sorry for the issue. We'll review and reverse the extra charge.",
     "route_to": "payments_queue",
     "confidence": 0.9
   },
@@ -12,8 +12,8 @@
     "ticket_id": "T-1002",
     "category": "account_access",
     "priority": "urgent",
-    "reason": "Login issue after password reset",
-    "suggested_reply": "We'll help you access your account.",
+    "reason": "login issue after reset",
+    "suggested_reply": "Sorry for the issue. We'll help you regain access ASAP.",
     "route_to": "trust_and_access_queue",
     "confidence": 0.95
   },
@@ -21,8 +21,8 @@
     "ticket_id": "T-1003",
     "category": "product_how_to",
     "priority": "normal",
-    "reason": "Transaction history export",
-    "suggested_reply": "Check our FAQ for export instructions.",
+    "reason": "feature inquiry",
+    "suggested_reply": "You can export history from the settings menu.",
     "route_to": "general_support_queue",
     "confidence": 0.8
   },
@@ -30,8 +30,8 @@
     "ticket_id": "T-1004",
     "category": "bug_report",
     "priority": "high",
-    "reason": "App crash on portfolio tab",
-    "suggested_reply": "Sorry for the issue. We'll investigate.",
+    "reason": "app crash",
+    "suggested_reply": "Sorry for the issue. We'll investigate and fix the app crash.",
     "route_to": "technical_queue",
     "confidence": 0.9
   }
