@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "urgent",
+    "reason": "Double charge error",
+    "suggested_reply": "Sorry for the issue. We'll look into it.",
+    "route_to": "payments_queue",
+    "confidence": 0.9
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "reason": "Login issue after password reset",
+    "suggested_reply": "We'll help you access your account.",
+    "route_to": "trust_and_access_queue",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "normal",
+    "reason": "Transaction history export",
+    "suggested_reply": "Check our FAQ for export instructions.",
+    "route_to": "general_support_queue",
+    "confidence": 0.8
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "high",
+    "reason": "App crash on portfolio tab",
+    "suggested_reply": "Sorry for the issue. We'll investigate.",
+    "route_to": "technical_queue",
+    "confidence": 0.9
+  }
+]
